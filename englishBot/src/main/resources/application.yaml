@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+#      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  datasource:
+    username: postgres
+    password: 1234
+    url: jdbc:postgresql://localhost:5432/postgres
+
+bot:
+  name : SterpuEnglishBot
+  token : 5924466086:AAEvL36ktCtDJwOVRSNuX0xRdJbmQBv-OWc
